@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+#waveform {
+    cursor: pointer;
+}
+
+#wave-spectrogram {
+    margin: 10px auto;
+    position: relative;
+}
+
+#wave-spectrogram canvas {
+    left: 0;
+    position: inline-block;
+}
+
+#wave-spectrogram .spec-labels {
+    position: absolute;
+}
+
+#zoom-bar {
+    margin: 10px;
+
+    #slider {
+        margin: 10px;
+        cursor: grab;
+        width: 300px;
+    }
+}
+
+
+.div-btns {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: row;
+    max-height: 55px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 27;
+    border-style: none;
+    padding: .5rem 1rem;
+    border-radius: 27px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 19;
+    margin: 10px;
+}
+
+#play-pause {
+    background-color: #5855ff;
+    color: white;
+}
+
+#color-change {
+    background-color: #ffd255;
+    color: black;
+}
