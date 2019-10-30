@@ -57,9 +57,9 @@ export const WSComp = () => {
             <button id="color-change" onClick={handleColorChange}>Cambiar color de onda</button>
             <button id="play-pause" onClick={handlePlayPause}>Reproducir/Pausar</button>
             <div id="zoom-bar">
-                <img src="./assets/zoom-in-icon.png" width="30"/>
+                <img src="./assets/zoom-out-icon.png" width="30" />
                 <input id="slider" type="range" min="1" max="200" onChange={handleSliderChange} ref={sliderRef} />
-                <img src="./assets/zoom-out-icon.png" width="30"/>
+                <img src="./assets/zoom-in-icon.png" width="30" />
             </div>
         </div>
 
